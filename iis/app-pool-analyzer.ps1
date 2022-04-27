@@ -1,7 +1,7 @@
 # Requires IIS and admin
 
-$frequencyInSeconds = 1
-$outputFile = "out.csv"
+$frequencyInSeconds = 30
+$outputFile = "C:\SizingAssesment\iis\out.csv"
 
 $properties=@(
     @{Name="App Pool"; Expression = {$pool.AppPool}},
