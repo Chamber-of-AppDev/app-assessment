@@ -43,5 +43,5 @@ Register-ScheduledTask `
     -AsJob
 
 Start-ScheduledTask -TaskName $taskName
-
+Start-Sleep -Seconds 5
 Get-ScheduledTaskInfo -TaskName $taskName
