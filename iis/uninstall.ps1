@@ -1,4 +1,4 @@
-$folder = "C:\SizingAssessment\iis\"
+$folder = "C:\SizingAssessment\"
 $taskName = "IIS App Pool Analyzer"
 
 Stop-ScheduledTask -TaskName $taskName
