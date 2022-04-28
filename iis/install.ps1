@@ -42,7 +42,6 @@ Register-ScheduledTask `
     -Force `
     -AsJob
 
+Start-ScheduledTask -TaskName $taskName
 
 Get-ScheduledTaskInfo -TaskName $taskName
-
-Start-ScheduledTask -TaskName $taskName
